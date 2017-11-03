@@ -28,16 +28,15 @@ window.onload = function(){
         {
             outAn:function(){
                 var img =  document.querySelector('#wrap .content .list > .home1 img');
-                    img.style.opacity = 0;
-                    setTimeout(function() {
+                 
                         img.style.opacity = 0;
-                      }, 1000)
+                   
             },
             inAn:function(){
                 var img =  document.querySelector('#wrap .content .list > .home1 img');
-                setTimeout(function() {
+            
                     img.style.opacity = 1;
-                  }, 1000)
+            
             }
         },
         {
@@ -171,6 +170,7 @@ window.onload = function(){
     for(var i=0; i<animationAn.length; i++){
         animationAn[i]['outAn']();
     }
+    
      
 
     //滚动
@@ -241,7 +241,11 @@ window.onload = function(){
     };
  
  //同步主导航和侧边导航
+    
     function move(index){
+        if(index===preIndex){
+            return
+        }
         for(var i=0; i<navLi.length; i++){
             navLi[i].className = ''; 
             sideList[i].className = '';
