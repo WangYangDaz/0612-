@@ -1,0 +1,191 @@
+@import 'common/reset.less';
+@import 'common/common.less';
+#wrap{
+    width: 100%;
+    height: 100%;
+    .header{
+        width: 100%;
+        height: 60px;
+        background: rgba(0,0,0,0.8);
+        .headeMain{
+           width: 980px;
+           height: 100%;
+           margin: 0 auto;
+           hgroup{
+               float: left;
+               margin: 16px 20px 0 0;
+           }
+           .navs{
+               float: right;
+               .list{
+                   font-size: 14px "微软雅黑";
+                   .clearfix();   
+                   li{
+                       float: left;
+                       width: 90px;
+                       height: 100%;
+                       line-height: 60px;
+                       text-align: center; 
+                       white-space: nowrap;
+                       a{
+                           display: block;
+                           color: white;
+                       }
+                       &:hover{
+                           a{
+                              background: #fc0; 
+                              color: black;
+                           }
+                       }
+                       &.active{
+                           a{
+                            background: #fc0; 
+                            color: black;  
+                           }
+                       }
+                   }
+               }
+           } 
+        }
+    }
+    .content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        .list{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: 1s top;
+            .home1{
+                .licss();
+                background:url('../img/s1.jpg') center;
+                overflow: hidden;
+                img{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin: -260px 0 0 -545px;
+                    transition: 1s opacity;
+                }  
+            }
+            .home2{
+               .licss();
+                background:url('../img/s2.jpg') center;
+                .left{
+                    position: absolute;
+                    left: 3%;
+                    top: 7%;
+                    z-index: 2;
+                    width: 837px;
+                    height: 437px;
+                    .picture{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                         .pictureCss();
+                        }
+                    }
+                } 
+                .right{
+                   .rightFont();
+                }
+                .bj{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }    
+            }
+            .home3{
+                .licss();
+                background:url('../img/s3.jpg') center;
+                .left{
+                    position: absolute;
+                    left: 3%;
+                    top: 7%;
+                    z-index: 2;
+                    width: 837px;
+                    height: 437px;
+                    .picture{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            .pictureCss(); 
+                        }
+                    }
+                }
+                .right{
+                    .rightFont();
+                }
+                .bj{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    img{
+                        display: block;
+                    }
+                }
+            }
+            .home4{
+                .licss();
+                background:url('../img/s4.jpg') center;
+                .left{
+                    z-index:2;
+                    position: absolute;
+                    left: 3%;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    margin-top:3%;
+                    .picture{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            .pictureCss();
+                        }
+                    } 
+                }
+                .right{
+                   .rightFont();
+                }
+                .bj{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }    
+            }
+            .home5{
+                .licss();
+                background:url('../img/s5.jpg') center;
+                .left{
+                    z-index:2;
+                    position: absolute;
+                    left: 3%;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    margin-top:3%;
+                    .picture{
+                        width: 100%;
+                        height: 100%;
+                        li{
+                            .pictureCss();
+                        }
+                    } 
+                }
+                .right{
+                    .rightFont();
+                }
+                .bj{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }    
+            }
+
+        }
+    }
+}        
