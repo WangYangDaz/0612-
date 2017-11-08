@@ -1,0 +1,218 @@
+/* https://mall.api.epet.com/v3/index/main.html?do=GetDynamicV315&pet_type=dog&version=358&system=wap&isWeb=1&_=1509694490538 */
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1509802894,
+    "hash": "",
+    "epet_site": "epet",
+    "data": {
+        "2576": {
+            "index": "2576",
+            "is_show": 1,
+            "type": "8",
+            "is_dynamic": "1",
+            "type_name": "天天惊喜模板",
+            "title": "距本场结束",
+            "time": "1509804000",
+            "goods": [
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2016-10/13/10/3831cd03378dde54156a6948089b24e5.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "6.90",
+                    "little_price": "省￥62.10",
+                    "gid": "184679",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2014-07/31/fc7d60bf8f0f07764ceceb9100856a9b.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "4.80",
+                    "little_price": "省￥43.20",
+                    "gid": "133477",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2015-11/26/14/6117f2b27080a15d9c3d72c433273c80.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "2.19",
+                    "little_price": "省￥19.72",
+                    "gid": "139511",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2016-06/23/12/66e99a4bca170009b06859d676fdee75.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "4.80",
+                    "little_price": "省￥43.20",
+                    "gid": "144161",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2017-03/08/10/724d996946657e07b356de5554151399.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "11.80",
+                    "little_price": "省￥106.20",
+                    "gid": "145831",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2017-09/29/14/02715e6a2dde3ad088f577965ed1ccd5.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "6.50",
+                    "little_price": "省￥58.50",
+                    "gid": "157478",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2017-05/22/16/8142fecc35b7efc02a08a869c19e742b.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "2.99",
+                    "little_price": "省￥26.91",
+                    "gid": "201665",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2017-02/27/12/e34d83109ab235be044d1b02bddba9a2.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "1.38",
+                    "little_price": "省￥12.42",
+                    "gid": "132731",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2016-10/13/10/3e66ab41c0bec3592f9bd7e41c5fa096.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "7.20",
+                    "little_price": "省￥64.80",
+                    "gid": "184671",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                },
+                {
+                    "image": {
+                        "image": "https://img1.epetbar.com/2017-10/12/15/32dd58f55c062afef79e427d158959a3.jpg",
+                        "img_size": "165x165"
+                    },
+                    "sale_price": "12.80",
+                    "little_price": "省￥115.20",
+                    "gid": "220656",
+                    "presubject": "",
+                    "target": {
+                        "mode": "miaosha",
+                        "param": {
+                            "title": "每日疯抢"
+                        }
+                    },
+                    "vip": {}
+                }
+            ],
+            "right_image": {
+                "image": "https://img2.epetbar.com/nowater/2017-11/02/09/3b8b4e66523f7e91abe01a2751bbb1d0.png",
+                "img_size": "135x80",
+                "target": {
+                    "mode": "surprise",
+                    "param": {
+                        "title": "每日疯抢"
+                    }
+                }
+            },
+            "surprise_icon": {
+                "image": "https://static.epetbar.com/static_wap/appmall/main/new_index_icon_suprice.png?version=03",
+                "img_size": "146x33",
+                "target": {}
+            }
+        }
+    },
+    "is_dynamic": 1,
+    "real_page_id": "149",
+    "cdn_info": {
+        "cache_key": "149",
+        "cdn_version": "20171103174931",
+        "url": "/index/main.html"
+    },
+    "push_alias": "appmall_",
+    "push_tags": "version358,"
+}
